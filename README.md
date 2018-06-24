@@ -141,11 +141,6 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 }
 
 ```
-
-## Program Running View
-
-<img src="capture.gif" alt="wireframe">
-
 ## Version
 
 1.3
