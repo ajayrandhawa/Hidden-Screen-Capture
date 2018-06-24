@@ -9,7 +9,7 @@ Programming is an important skill that every self respecting hacker should maste
 * Building your own malware. 
 When you program your own malware, there is no signature for it registered, thus making it pretty much impossible for AV software to detect.
 
-* Knowing how programs work will help you exploit them. 
+* <b>Knowing how programs work will help you exploit them. </b>
 though most exploit development is done in the assembly language in debuggers, knowing how a program works will help you exploit it faster.
 
 * Hacking tools are mostly open source. 
