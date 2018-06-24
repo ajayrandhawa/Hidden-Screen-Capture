@@ -20,6 +20,10 @@ Though i recommend ruby & the Metasploit Framework for this purpose, ruby is sti
 
 i choose to make a series about C/C++ because C++ is a powerful language and is used in a lot of programs, like games. C is less powerfull but is still quite a low-level language, which means it interacts closely with the CPU. embedded devices are usually programmed in C aswell, from traffic lights to your microwave, will most likely run on some kind of software that is written in C.
 
+### Prerequisites
+
+1. Microsoft Windows System
+2. Visual Studio 2012
 
 ### Source Code
 
@@ -137,3 +141,15 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 }
 
 ```
+
+## Program Running View
+
+<img src="capture.gif" alt="wireframe">
+
+## Version
+
+1.3
+
+## Authors
+
+Ajay Randhawa
