@@ -1,5 +1,26 @@
 ### Hidden Screen Catpure C++ (Stealth Mode)
-Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second.
+Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second. 60+ Most Popular antivirus not detect this application while it is running on background.
+
+### Why Programming Is Important for Hackers to Know.
+
+Programming is an important skill that every self respecting hacker should master. here are some good examples of why it is important:
+
+* Building your own malware. 
+When you program your own malware, there is no signature for it registered, thus making it pretty much impossible for AV software to detect.
+
+* Knowing how programs work will help you exploit them. 
+though most exploit development is done in the assembly language in debuggers, knowing how a program works will help you exploit it faster.
+
+* Hacking tools are mostly open source. 
+most hacking tools are open source, which means everyone can access the source code of said program. when you know how to program in the language the program is written, you can edit it and make it even better!
+
+* Making your own exploits. 
+Though i recommend ruby & the Metasploit Framework for this purpose, ruby is still quite slow compared to C or C++. if you need your exploit to be fast, you can write it in C/C++.
+
+i choose to make a series about C/C++ because C++ is a powerful language and is used in a lot of programs, like games. C is less powerfull but is still quite a low-level language, which means it interacts closely with the CPU. embedded devices are usually programmed in C aswell, from traffic lights to your microwave, will most likely run on some kind of software that is written in C.
+
+
+### Source Code
 
 ```
 #include <stdio.h>
