@@ -143,7 +143,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 ```
 ## Version
 
-1.3
+1.5
 
 ## Authors
 
