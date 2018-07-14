@@ -1,12 +1,8 @@
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-### Exploit Development : Hidden Screen Catpure C++ (Stealth Mode)
+### Exploit Development : Hidden Screen Catpure C++ (Stealth Mode):
 
 It is primary designed to be hidden and monitoring the computer activity. Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second. 60+ Most Popular antivirus not detect this application while it is running on background.
 
-### Why Programming Is Important for Hackers to Know.
+### Why Programming Is Important for Hackers to Know:
 
 Programming is an important skill that every self respecting hacker should master. here are some good examples of why it is important:
 
@@ -24,7 +20,7 @@ Though i recommend ruby & the Metasploit Framework for this purpose, ruby is sti
 
 i choose to make a series about C/C++ because C++ is a powerful language and is used in a lot of programs, like games. C is less powerfull but is still quite a low-level language, which means it interacts closely with the CPU. embedded devices are usually programmed in C aswell, from traffic lights to your microwave, will most likely run on some kind of software that is written in C.
 
-### Prerequisites
+### Prerequisites:
 
 1. Microsoft Windows System
 2. Visual Studio 2012
@@ -33,7 +29,7 @@ i choose to make a series about C/C++ because C++ is a powerful language and is 
 
 Contain Executable Version of Program. It run in Stealth Mode and Capture the Screenshot after 60 seconds of interval. Imaege name is based on Current System Time.
 
-### Source Code
+### Source Code :
 
 ```
 #include <stdio.h>
