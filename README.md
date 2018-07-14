@@ -25,6 +25,10 @@ i choose to make a series about C/C++ because C++ is a powerful language and is 
 1. Microsoft Windows System
 2. Visual Studio 2012
 
+### Screenshot.zip (Files Included in Repo)
+
+Contain Executable Version of Program. It run in Stealth Mode and Capture the Screenshot after 60 seconds of interval. Imaege name is based on Current System Time.
+
 ### Source Code
 
 ```
@@ -143,7 +147,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 ```
 ## Version
 
-1.5
+1.7
 
 ## Authors
 
