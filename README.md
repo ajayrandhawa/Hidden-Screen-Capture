@@ -140,7 +140,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 	startDate =dayS + monthS + yearS + hourS + mintueS;  // create complete string of date and time
 	
 	screenshot(startDate);   // send string to screenshot function
-	Sleep(500*30*1);  // delay execution of function 30 Seconds
+	Sleep(1000*30*1);  // delay execution of function 60 Seconds
 	}
 }
 
