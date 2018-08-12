@@ -152,3 +152,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 ## Authors
 
 Ajay Randhawa
+
+## Donate
+If you appreciate that, please consider donating to the Developer.
+
+[![Donate](https://pasteboard.co/HyQFKkP.png)](https://www.paypal.me/ajayrandhawa) 
