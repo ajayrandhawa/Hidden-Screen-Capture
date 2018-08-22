@@ -20,7 +20,7 @@ most hacking tools are open source, which means everyone can access the source c
 > <b>Making your own exploits. </b>
 Though i recommend ruby & the Metasploit Framework for this purpose, ruby is still quite slow compared to C or C++. if you need your exploit to be fast, you can write it in C/C++.
 
-i choose to make a series about C/C++ because C++ is a powerful language and is used in a lot of programs, like games. C is less powerfull but is still quite a low-level language, which means it interacts closely with the CPU. embedded devices are usually programmed in C aswell, from traffic lights to your microwave, will most likely run on some kind of software that is written in C.
+I choose to make a series about C/C++ because C++ is a powerful language and is used in a lot of programs, like games. C is less powerfull but is still quite a low-level language, which means it interacts closely with the CPU. embedded devices are usually programmed in C aswell, from traffic lights to your microwave, will most likely run on some kind of software that is written in C.
 
 ### Prerequisites:
 
