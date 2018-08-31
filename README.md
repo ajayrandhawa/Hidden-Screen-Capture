@@ -1,6 +1,6 @@
 #### DISCLAIMER : OUR TOOLS ARE FOR EDUCATIONAL PURPOSES ONLY. DON'T USE THEM FOR ILLEGAL ACTIVITIES. YOU ARE THE ONLY RESPONSABLE FOR YOUR ACTIONS! OUR TOOLS ARE OPEN SOURCE WITH NO WARRANTY AND AS ARE.
 
-## Exploit Development : Hidden Screen Catpure C++ (Stealth Mode) :
+## Blackcat Screen Capture (Stealth Mode) :
 
 It is primary designed to be hidden and monitoring the computer activity. Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second. 60+ Most Popular antivirus not detect this application while it is running on background.
 
@@ -150,10 +150,6 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 ## Version
 
 1.7
-
-## Authors
-
-Ajay Randhawa
 
 ## Donate
 If you appreciate that, please consider donating to the Developer.
