@@ -153,7 +153,3 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdL
 
 1.7
 
-## Donate
-If you appreciate that, please consider donating to the Developer.
-
-[![Donate](https://cdn.pbrd.co/images/HyQFKkP.png)](https://www.paypal.me/ajayrandhawa) 
