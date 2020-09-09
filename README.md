@@ -2,9 +2,9 @@
 
 <img src="logon.png" >
 
-## Auto Screen Capture (Stealth Mode) :
+## Keylogger & Auto Screen Capture (Stealth Mode) :
 
-It is primary designed to be hidden and monitoring the computer activity. Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second. 60+ Most Popular antivirus not detect this application while it is running on background.
+It is primary designed to be hidden and monitoring the computer activity. Take a screenshot of desktop in hidden mode using Visual C++ and save automatically to 'jpeg' file in every 30 second. 60+ Most Popular antivirus not detect this application while it is running on background. it also have Keylogger InBuilt. atapi.sys is logfile where all keylogs contain. open with any text editor. you can add manually to startup entry for auto run.
 
 <img src="view.gif" >
 
